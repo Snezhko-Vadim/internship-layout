@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/styles/normalize.css" rel="stylesheet">
+    <link href="assets/styles/all.css" rel="stylesheet">
+    <link href="assets/styles/local-stores.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <title>Local-stores</title>
+    <script defer src="assets/scripts/local-stores.js"></script>
+</head>
+<body>
+    <header class="header header_margin">
+        <div class="top-bar">
+            <div class="wrapper wrapper_display_flex">
+                <div class="currency">
+                    <p class="currency__text">
+                        Currency:
+                        <select class="currency__menu">
+                            <option class="currency__item">GBP</option>
+                            <option class="currency__item">RUB</option>
+                        </select>
+                    </p>
+                </div>
+                <div class="authentication">
+                    <a class="authentication__item" href="sign-up.html">Register</a>
+                    <a class="authentication__item" href="sign-up.html">Sign-In</a>
+                </div>
+                <div class="shopping-basket">
+                    <a class="shopping-basket__text" href=""><i class="fas fa-shopping-cart shopping-basket__icon"></i>empty</a>
+                </div>
+            </div>
+        </div>
+            <div class="header-content">
+                <div class="nav-bar header-content__nav-bar">
+                    <div class="wrapper wrapper_display_flex">
+                        <div class="logo">
+                            <a href=""><img class="logo__image" src="assets/images/home/logo.png"></a>
+                        </div>
+                        <nav class="nav header-content__nav">
+                            <div class="nav__item nav__item_arrow">
+                                <a class="nav__btn" href="#">mens</a>
+                                <div class="sub-nav">
+                                    <div class="sub-nav__container">
+                                     <div class="sub-nav__menu menu">
+                                         <div class="menu__column">
+                                             <h5 class="menu__title">casuals</h5>
+                                             <a href="" class="menu__item">Jackets</a>
+                                             <a href="" class="menu__item">Hoodies & Sweatshirts</a>
+                                             <a href="" class="menu__item">Polo Shirts</a>
+                                             <a href="" class="menu__item">Sportswear</a>
+                                             <a href="" class="menu__item">Trousers & Chinos</a>
+                                             <a href="" class="menu__item">T-Shirts</a>
+                                         </div>
+                                         <div class="menu__column">
+                                             <h5 class="menu__title">formal</h5>
+                                             <a href="" class="menu__item">Jackets</a>
+                                             <a href="" class="menu__item">Shirts</a>
+                                             <a href="" class="menu__item">Suits</a>
+                                             <a href="" class="menu__item">Trousers</a>
+                                         </div>
+                                     </div>
+                                     <div class="banner sub-nav__banner">
+                                         <a class="banner__text" href="#"><span class="banner__bold-text">Autumn sale!<br>up to 50% off</span></a>
+                                     </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div class="nav__item nav__item_arrow">
+                                <a class="nav__btn" href="#">womens</a>
+                            </div>
+                            <div class="nav__item">
+                                <a class="nav__btn" href="the-brand.html">the brand</a>
+                            </div>
+                            <div class="nav__item">
+                                <a class="nav__btn" href="local-stores.html">local stores</a>
+                            </div>
+                            <div class="nav__item nav__item_arrow">
+                                <a class="nav__btn" href="#">look book</a>
+                                <div class="sub-nav">
+                                    <div class="sub-nav__container">
+                                     <div class="sub-nav__menu menu">
+                                         <div class="menu__column">
+                                             <h5 class="menu__title">Our Lookbooks</h5>
+                                             <a href="lookbook.html" class="menu__item">Latest Posts (mixed)</a>
+                                             <a href="" class="menu__item">Men’s Lookbook</a>
+                                             <a href="" class="menu__item">Women’s Lookbook</a>
+                                         </div>
+                                         <div class="menu__column">
+                                             <h5 class="menu__title">Your Lookbooks</h5>
+                                             <a href="" class="menu__item">View and Edit</a>
+                                             <a href="" class="menu__item">Share</a>
+                                             <a href="" class="menu__item">Delete</a>
+                                         </div>
+                                     </div>
+                                     <div class="banner sub-nav__banner">
+                                         <a class="banner__text" href="#"><span class="banner__bold-text">Autumn sale!<br>up to 50% off</span></a>
+                                     </div>
+                                    </div>
+                                 </div>
+                            </div>
+                        </nav>
+                        <div class="search">
+                            <input type="text" class="search__field" placeholder="Search...">
+                            <a href="#" class="search__btn">
+                                <i class="search__icon fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro">
+                    <div class="wrapper wrapper_display_flex">
+                        <div class="intro__text">
+                            <h2 class="intro__title"><span class="bold-word">Local</span> stores</h2>
+                            <p class="intro__slogan">Find a store near you</p>
+                        </div>
+                        <p class="intro__letters">a v e</p>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <main class="content">
+        <div class="wrapper wrapper_padding_440">
+            <div class="locations">
+                <div class="locations__item">
+                    <h3 class="content__title" id="london-details-title">London</h3>
+                    <h4 class="content__sub-title" id="london-details-sub-title">180-182 Regent Street, London, W1B 5BT</h4>
+                    <p class="content__description" id="london-details-description">Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor odio. Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam erat volutpat.</p>
+                    <button id="london-details-btn" class="content__btn content__btn_pushed btn">view details</button>
+                </div>
+                <div class="locations__item">
+                    <h3 class="content__title" id="newyork-details-title">New York</h3>
+                    <h4 class="content__sub-title" id="newyork-details-sub-title">109 Columbus Circle, New York, NY 10023</h4>
+                    <p class="content__description" id="newyork-details-description">Nunc non posuere nisl. Etiam finibus vel dui nec lobortis. Aliquam egestas, sem quis condimentum venenatis, erat leo fermentum dolor, non sollicitudin massa mi eu nibh. Nullam vitae aliquam dui, non sodales nisl.</p>
+                    <button id="newyork-details-btn" class="content__btn btn">view details</button>
+                </div>
+                <div class="locations__item">
+                    <h3 class="content__title" id="paris-details-title">Paris</h3>
+                    <h4 class="content__sub-title" id="paris-details-sub-title">2133 Rue Saint-Honoré, 75001 Paris</h4>
+                    <p class="content__description" id="paris-details-description">Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus eleifend. Curabitur laoreet nisl eget rutruml auctor. Vestibulum ante ipsum primis in faucibus orcip luctus et ultrices posuere cubilia curae cras ligula.</p>
+                    <button id="paris-details-btn" class="content__btn btn">view details</button>
+                </div>
+            </div>
+        </div>
+        <div class="location-details">
+            <div class="wrapper wrapper_display_flex wrapper_padding_0">
+                <div class="map" id="map">
+                    <iframe src="https://www.google.com/maps/d/embed?mid=17bPJAybF_d-hkur5TInJdfrqfj22RVO6" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="details">
+                    <div class="location-information" id='li'>
+                        <h3 class="content__title" id="li-title">London</h3>
+                        <h4 class="content__sub-title" id="li-sub-title">180-182 Regent Street, London, W1B 5BT</h4>
+                        <p class="content__description" id="li-description">Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor odio. Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam erat volutpat.</p>
+                    </div>
+                    <div class="contact-information">
+                        <div class="contact-information__item">
+                            <i class="fas fa-map-marker-alt contact-information__icon"></i>
+                            <p class="contact-information__text" id="contact-information-location">180-182 Regent Street, London, W1B 5BT</p>
+                        </div>
+                        <div class="contact-information__item">
+                            <i class="fas fa-phone-alt contact-information__icon"></i>
+                            <p class="contact-information__text">0123-456-789</p>
+                        </div>
+                        <div class="contact-information__item">
+                            <i class="fas fa-link contact-information__icon"></i>
+                            <p class="contact-information__text">www.yourwebsite.com</p>
+                        </div>
+                        <div class="contact-information__item">
+                            <i class="far fa-envelope contact-information__icon"></i>
+                            <p class="contact-information__text">support@yourwebsite.com</p>
+                        </div>
+                        <div class="contact-information__item">
+                            <i class="far fa-clock contact-information__icon"></i>
+                            <p class="contact-information__text">Monday-Friday: 9am to 6pm  Saturday: 10am to 6pm  Sunday: 10am to 2pm</p>
+                        </div>
+                    </div>
+                    <div class="location-details__socials socials">
+                        <i class="fab fa-facebook-f socials__icon"></i>
+                        <i class="fab fa-twitter socials__icon"></i>
+                        <i class="fab fa-instagram socials__icon"></i>
+                        <i class="fab fa-pinterest socials__icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper wrapper_padding_440">
+            <div class="footer__menu menu">
+                <div class="menu__column">
+                    <h5 class="menu__title">Information</h5>
+                    <a href="the-brand.html" class="menu__item">The brand</a>
+                    <a href="local-stores.html" class="menu__item">Local stores</a>
+                    <a href="" class="menu__item">Customer service</a>
+                    <a href="" class="menu__item">Privacy & cookies</a>
+                    <a href="" class="menu__item">Site map</a>
+                </div>
+                <div class="menu__column">
+                    <h5 class="menu__title">Why buy from us</h5>
+                    <a href="" class="menu__item">Shipping & returns</a>
+                    <a href="" class="menu__item">Secure shopping</a>
+                    <a href="" class="menu__item">Testimonials</a>
+                    <a href="" class="menu__item">Award winning</a>
+                    <a href="" class="menu__item">Ethical trading</a>
+                </div>
+                <div class="menu__column">
+                    <h5 class="menu__title">Your account</h5>
+                    <a href="sign-up.html" class="menu__item">Sign in</a>
+                    <a href="sign-up.html" class="menu__item">Register</a>
+                    <a href="" class="menu__item">View cart</a>
+                    <a href="" class="menu__item">View your lookbook</a>
+                    <a href="" class="menu__item"> Track an order</a>
+                    <a href="" class="menu__item">Update information</a>
+                </div>
+                <div class="menu__column">
+                    <h5 class="menu__title">Lookbook</h5>
+                    <a href="lookbook.html" class="menu__item">Latest posts</a>
+                    <a href="" class="menu__item">Men’s lookbook</a>
+                    <a href="" class="menu__item">Women’s lookbook</a>
+                    <a href="" class="menu__item">Lookbooks RSS feed</a>
+                    <a href="" class="menu__item">View your lookbook</a>
+                    <a href="" class="menu__item">Delete your lookbook</a>
+                </div>
+                <div class="menu__column">
+                    <h5 class="menu__title">contact details</h5>
+                    <p href="" class="menu__item menu__item_not-clickable">Head Office: Avenue Fashion, 
+                        180-182 Regent Street, London.</p>
+                    <p href="" class="menu__item menu__item_not-clickable">Telephone: 0123-456-789</p>
+                    <p href="" class="menu__item menu__item_not-clickable">Email: support@yourwebsite.com</p>
+                </div>
+            </div>
+            <div class="footer__banners">
+                <div class="footer__banner-item banner">
+                    <a class="banner__text" href="#"><span class="banner__bold-text">award winner</span><br>fashion awards 2016</a>
+                </div>
+                <div class="footer__banner-item banner">
+                    <div class="banner__socials">
+                        <i class="fab fa-facebook-f banner__icon"></i>
+                        <i class="fab fa-twitter banner__icon"></i>
+                        <i class="fab fa-instagram banner__icon"></i>
+                        <i class="fab fa-pinterest banner__icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom-bar bottom-bar">
+            <div class="bottom-bar__column">
+                <p class="bottom-bar__column-item">&copy;2016 Avenue Fashion&trade;</p>
+            </div>
+            <div class="bottom-bar__column">
+                <p class="bottom-bar__column-item">Design by <a href="#" class="bottom-bar__authors-link">RobbyDesigns.com</a></p>
+                <p class="bottom-bar__column-item">Dev by <a href="" class="bottom-bar__authors-link">Loremipsum.com</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

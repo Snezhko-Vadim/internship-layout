@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/styles/normalize.css" rel="stylesheet">
+    <link href="assets/styles/all.css" rel="stylesheet">
+    <link href="assets/styles/lookbook.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <title>lookbook</title>
+    <script defer src="assets/scripts/lookbook.js"></script>
+</head>
+<body>
+    <header class="header header_margin">
+        <div class="top-bar">
+            <div class="wrapper wrapper_display_flex">
+                <div class="currency">
+                    <p class="currency__text">
+                        Currency:
+                        <select class="currency__menu">
+                            <option class="currency__item">GBP</option>
+                            <option class="currency__item">RUB</option>
+                        </select>
+                    </p>
+                </div>
+                <div class="authentication">
+                    <a class="authentication__item" href="sign-up.html">Register</a>
+                    <a class="authentication__item" href="sign-up.html">Sign-In</a>
+                </div>
+                <div class="shopping-basket">
+                    <a class="shopping-basket__text" href=""><i class="fas fa-shopping-cart shopping-basket__icon"></i>empty</a>
+                </div>
+            </div>
+        </div>
+            <div class="header-content">
+                <div class="nav-bar header-content__nav-bar">
+                    <div class="wrapper wrapper_display_flex">
+                        <div class="logo">
+                            <a href=""><img class="logo__image" src="assets/images/home/logo.png"></a>
+                        </div>
+                        <nav class="nav header-content__nav">
+                            <div class="nav__item nav__item_arrow">
+                                <a class="nav__btn" href="#">mens</a>
+                                <div class="sub-nav">
+                                    <div class="sub-nav__container">
+                                     <div class="sub-nav__menu menu">
+                                         <div class="menu__column">
+                                             <h5 class="menu__title">casuals</h5>
+                                             <a href="" class="menu__item">Jackets</a>
+                                             <a href="" class="menu__item">Hoodies & Sweatshirts</a>
+                                             <a href="" class="menu__item">Polo Shirts</a>
+                                             <a href="" class="menu__item">Sportswear</a>
+                                             <a href="" class="menu__item">Trousers & Chinos</a>
+                                             <a href="" class="menu__item">T-Shirts</a>
+                                         </div>
+                                         <div class="menu__column">
+                                             <h5 class="menu__title">formal</h5>
+                                             <a href="" class="menu__item">Jackets</a>
+                                             <a href="" class="menu__item">Shirts</a>
+                                             <a href="" class="menu__item">Suits</a>
+                                             <a href="" class="menu__item">Trousers</a>
+                                         </div>
+                                     </div>
+                                     <div class="banner sub-nav__banner">
+                                         <a class="banner__text" href="#"><span class="banner__bold-text">Autumn sale!<br>up to 50% off</span></a>
+                                     </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div class="nav__item nav__item_arrow">
+                                <a class="nav__btn" href="#">womens</a>
+                            </div>
+                            <div class="nav__item">
+                                <a class="nav__btn" href="the-brand.html">the brand</a>
+                            </div>
+                            <div class="nav__item">
+                                <a class="nav__btn" href="local-stores.html">local stores</a>
+                            </div>
+                            <div class="nav__item nav__item_arrow">
+                                <a class="nav__btn" href="#">look book</a>
+                                <div class="sub-nav">
+                                    <div class="sub-nav__container">
+                                     <div class="sub-nav__menu menu">
+                                         <div class="menu__column">
+                                             <h5 class="menu__title">Our Lookbooks</h5>
+                                             <a href="lookbook.html" class="menu__item">Latest Posts (mixed)</a>
+                                             <a href="" class="menu__item">Men’s Lookbook</a>
+                                             <a href="" class="menu__item">Women’s Lookbook</a>
+                                         </div>
+                                         <div class="menu__column">
+                                             <h5 class="menu__title">Your Lookbooks</h5>
+                                             <a href="" class="menu__item">View and Edit</a>
+                                             <a href="" class="menu__item">Share</a>
+                                             <a href="" class="menu__item">Delete</a>
+                                         </div>
+                                     </div>
+                                     <div class="banner sub-nav__banner">
+                                         <a class="banner__text" href="#"><span class="banner__bold-text">Autumn sale!<br>up to 50% off</span></a>
+                                     </div>
+                                    </div>
+                                 </div>
+                            </div>
+                        </nav>
+                        <div class="search">
+                            <input type="text" class="search__field" placeholder="Search...">
+                            <a href="#" class="search__btn">
+                                <i class="search__icon fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro">
+                    <div class="wrapper wrapper_display_flex">
+                        <div class="intro__text">
+                            <h2 class="intro__title"><span class="bold-word">our</span> lookbook</h2>
+                            <p class="intro__slogan">Latest Posts - mens & womens</p>
+                        </div>
+                        <p class="intro__letters">a v e</p>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <main class="main">
+        <div class="wrapper">
+            <div class="items items_border">
+                <div class="nav-bar main__nav-bar">
+                    <nav class="nav main__nav">
+                        <div class="nav__item">
+                            <a class="nav__btn" href="#">latest</a>
+                        </div>
+                        <div class="nav__item">
+                            <a class="nav__btn" href="#">most liked</a>
+                        </div>
+                        <div class="nav__item">
+                            <a class="nav__btn" href="#">best sellers</a>
+                        </div>
+                        <div class="nav__item">
+                            <a class="nav__btn" href="#">price low to high</a>
+                        </div>
+                        <div class="nav__item">
+                            <a class="nav__btn" href="#">price high to low</a>
+                        </div>
+                    </nav>
+                </div>
+                <div class="products-container">
+                        <div class="products-item">
+                            <img src="assets/images/lookbook/products-item-1.png" alt="products-item-1" class="products-item__image">
+                            <p class="products-item__ref">
+                                <span class="products-item__ref-text-small">ref</span>
+                                M1
+                            </p>
+                            <div class="products-item__more-information">
+                                <div class="products-item__actions">
+                                    <a href="" class="products-item__details-link">
+                                        <i class="fas fa-info-circle"></i>
+                                    </a>
+                                    <a href="" class="products-item__like">
+                                        <i class="fab fa-gratipay"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-item">
+                            <img src="assets/images/lookbook/products-item-2.png" alt="products-item-1" class="products-item__image">
+                            <p class="products-item__ref">
+                                <span class="products-item__ref-text-small">ref</span>
+                                W1
+                            </p>
+                            <div class="products-item__more-information">
+                                <div class="products-item__actions">
+                                    <a href="" class="products-item__details-link">
+                                        <i class="fas fa-info-circle"></i>
+                                    </a>
+                                    <a href="" class="products-item__like">
+                                        <i class="fab fa-gratipay"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-item products-item_janes-lookbook">
+                            <div class="products-item__information">
+                                <h4 class="products-item__title"><span class="bold-word">Jane’s</span> lookbook</h4>
+                                <h5 class="products-item__sub-title">get the look for under &pound;200! copy</h5>
+                                <p class="products-item__description">We invited actress Jane Marshall to join us 
+                                    for the day and choose her perfect outfit from 
+                                    our vast range of womens fashion.
+                                    </p>
+                                    <p class="products-item__description">This is of course not true as this is just a design 
+                                        for a website and this is simply filler text.
+                                    </p>
+                                <a href="" class="products-item__btn btn">view now</a>
+                            </div>
+                        </div>
+                        <div class="products-item">
+                            <img src="assets/images/lookbook/products-item-3.png" alt="products-item-3" class="products-item__image">
+                            <p class="products-item__ref">
+                                <span class="products-item__ref-text-small">ref</span>
+                                M1
+                            </p>
+                            <div class="products-item__more-information">
+                                <div class="products-item__actions">
+                                    <a href="" class="products-item__details-link">
+                                        <i class="fas fa-info-circle"></i>
+                                    </a>
+                                    <a href="" class="products-item__like">
+                                        <i class="fab fa-gratipay"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-item">
+                            <img src="assets/images/lookbook/products-item-4.png" alt="products-item-4" class="products-item__image">
+                            <p class="products-item__ref">
+                                <span class="products-item__ref-text-small">ref</span>
+                                W1
+                            </p>
+                            <div class="products-item__more-information">
+                                <div class="products-item__actions">
+                                    <a href="" class="products-item__details-link">
+                                        <i class="fas fa-info-circle"></i>
+                                    </a>
+                                    <a href="" class="products-item__like">
+                                        <i class="fab fa-gratipay"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-item">
+                            <img src="assets/images/lookbook/products-item-5.png" alt="products-item-5" class="products-item__image">
+                            <p class="products-item__ref">
+                                <span class="products-item__ref-text-small">ref</span>
+                                W1
+                            </p>
+                            <div class="products-item__more-information">
+                                <div class="products-item__actions">
+                                    <a href="" class="products-item__details-link">
+                                        <i class="fas fa-info-circle"></i>
+                                    </a>
+                                    <a href="" class="products-item__like">
+                                        <i class="fab fa-gratipay"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-item">
+                            <img src="assets/images/lookbook/products-item-6.png" alt="products-item-6" class="products-item__image">
+                            <p class="products-item__ref">
+                                <span class="products-item__ref-text-small">ref</span>
+                                W1
+                            </p>
+                            <div class="products-item__more-information">
+                                <div class="products-item__actions">
+                                    <a href="" class="products-item__details-link">
+                                        <i class="fas fa-info-circle"></i>
+                                    </a>
+                                    <a href="" class="products-item__like">
+                                        <i class="fab fa-gratipay"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-item products-item_win-a-new-book">
+                            <div class="products-item__information">
+                                <h4 class="products-item__title"><span class="bold-word">Win</span> a new look!</h4>
+                                <h5 class="products-item__sub-title">add looks or items to your lookbook for a chance of winning</h5>
+                                <p class="products-item__description">See an item or a complete look you like, click the &hearts; button to add it to your 
+                                    lookbook and you’ll be automatically entered to our monthly draw where 
+                                    one winner gets a &pound;300 gift voucher to spend on our website!
+                                    </p>
+                                    <p class="products-item__description">Terms: No purchase necessary. Vouchers are non-transferable and no 
+                                        cash alternative is ofered. Competition is for members only.
+                                    </p>
+                                <a href="" class="products-item__btn btn">shop now</a>
+                            </div>
+                            <div class="products-item__bg-text-container">
+                                <p class="products-item__bg-text-big-word">win</p>
+                                <p class="products-item__bg-text-small-word">a new look</p>
+                            </div>
+                        </div>
+                        <div class="products-item">
+                            <img src="assets/images/lookbook/products-item-7.png" alt="products-item-7" class="products-item__image">
+                            <p class="products-item__ref">
+                                <span class="products-item__ref-text-small">ref</span>
+                                M1
+                            </p>
+                            <div class="products-item__more-information">
+                                <div class="products-item__actions">
+                                    <a href="" class="products-item__details-link">
+                                        <i class="fas fa-info-circle"></i>
+                                    </a>
+                                    <a href="" class="products-item__like">
+                                        <i class="fab fa-gratipay"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="lookbook">
+            <div class="wrapper wrapper_padding_0 wrapper_display_flex wrapper_justify-content_space-between">
+                <div class="lookbook-item">
+                    <div class="lookbook-item__image-container">
+                        <img src="assets/images/home/lookbook-img-1.png" alt="lookbook-img-1" class="lookbook-item__image">
+                    </div>
+                    <div class="lookbook-item__information">
+                        <h4 class="lookbook-item__title"><span class="lookbook-item__title-bold">men’s</span> lookbook</h4>
+                        <p class="lookbook-item__description">Lorem ipsum dolor sit amet eras facilisis
+                            consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
+                            Elementum metus facilisis ut phasellu.
+                            </p>
+                        <a href="" class="lookbook-item__btn btn">view now</a>
+                    </div>
+                </div>
+                <div class="lookbook-item">
+                    <div class="lookbook-item__image-container">
+                        <img src="assets/images/home/lookbook-img-2.png" alt="lookbook-img-2" class="lookbook-item__image">
+                    </div>
+                    <div class="lookbook-item__information">
+                        <h4 class="lookbook-item__title"><span class="lookbook-item__title-bold">women’s</span> lookbook</h4>
+                        <p class="lookbook-item__description">Pellentesque habitant morbi tristique senectus et netus et malesuada fames .
+                            Pellentesque laoreet quis enim et mattis. Quisque interdum felis tellus.
+                            </p>
+                        <a href="" class="lookbook-item__btn btn">view now</a>
+                    </div>
+                </div>
+                <div class="lookbook-item">
+                    <div class="lookbook-item__image-container">
+                        <img src="assets/images/home/lookbook-img-3.png" alt="lookbook-img-3" class="lookbook-item__image">
+                    </div>
+                    <div class="lookbook-item__information">
+                        <h4 class="lookbook-item__title"><span class="lookbook-item__title-bold">your</span> lookbook</h4>
+                        <p class="lookbook-item__description">See an item you like and click the button to add it to your lookbook where you can create your own perfect look.
+                            It’s like your own boutique!
+                            </p>
+                        <a href="" class="lookbook-item__btn btn">view now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper wrapper_padding_440">
+            <div class="footer__menu menu">
+                <div class="menu__column">
+                    <h5 class="menu__title">Information</h5>
+                    <a href="the-brand.html" class="menu__item">The brand</a>
+                    <a href="local-stores.html" class="menu__item">Local stores</a>
+                    <a href="" class="menu__item">Customer service</a>
+                    <a href="" class="menu__item">Privacy & cookies</a>
+                    <a href="" class="menu__item">Site map</a>
+                </div>
+                <div class="menu__column">
+                    <h5 class="menu__title">Why buy from us</h5>
+                    <a href="" class="menu__item">Shipping & returns</a>
+                    <a href="" class="menu__item">Secure shopping</a>
+                    <a href="" class="menu__item">Testimonials</a>
+                    <a href="" class="menu__item">Award winning</a>
+                    <a href="" class="menu__item">Ethical trading</a>
+                </div>
+                <div class="menu__column">
+                    <h5 class="menu__title">Your account</h5>
+                    <a href="sign-up.html" class="menu__item">Sign in</a>
+                    <a href="sign-up.html" class="menu__item">Register</a>
+                    <a href="" class="menu__item">View cart</a>
+                    <a href="" class="menu__item">View your lookbook</a>
+                    <a href="" class="menu__item"> Track an order</a>
+                    <a href="" class="menu__item">Update information</a>
+                </div>
+                <div class="menu__column">
+                    <h5 class="menu__title">Lookbook</h5>
+                    <a href="lookbook.html" class="menu__item">Latest posts</a>
+                    <a href="" class="menu__item">Men’s lookbook</a>
+                    <a href="" class="menu__item">Women’s lookbook</a>
+                    <a href="" class="menu__item">Lookbooks RSS feed</a>
+                    <a href="" class="menu__item">View your lookbook</a>
+                    <a href="" class="menu__item">Delete your lookbook</a>
+                </div>
+                <div class="menu__column">
+                    <h5 class="menu__title">contact details</h5>
+                    <p href="" class="menu__item menu__item_not-clickable">Head Office: Avenue Fashion, 
+                        180-182 Regent Street, London.</p>
+                    <p href="" class="menu__item menu__item_not-clickable">Telephone: 0123-456-789</p>
+                    <p href="" class="menu__item menu__item_not-clickable">Email: support@yourwebsite.com</p>
+                </div>
+            </div>
+            <div class="footer__banners">
+                <div class="footer__banner-item banner">
+                    <a class="banner__text" href="#"><span class="banner__bold-text">award winner</span><br>fashion awards 2016</a>
+                </div>
+                <div class="footer__banner-item banner">
+                    <div class="banner__socials">
+                        <i class="fab fa-facebook-f banner__icon"></i>
+                        <i class="fab fa-twitter banner__icon"></i>
+                        <i class="fab fa-instagram banner__icon"></i>
+                        <i class="fab fa-pinterest banner__icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom-bar bottom-bar">
+            <div class="bottom-bar__column">
+                <p class="bottom-bar__column-item">&copy;2016 Avenue Fashion&trade;</p>
+            </div>
+            <div class="bottom-bar__column">
+                <p class="bottom-bar__column-item">Design by <a href="#" class="bottom-bar__authors-link">RobbyDesigns.com</a></p>
+                <p class="bottom-bar__column-item">Dev by <a href="" class="bottom-bar__authors-link">Loremipsum.com</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
